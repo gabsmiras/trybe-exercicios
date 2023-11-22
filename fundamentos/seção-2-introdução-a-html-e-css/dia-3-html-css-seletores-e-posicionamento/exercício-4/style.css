@@ -1,0 +1,8 @@
+    div:hover {
+        border-color: black;
+        border-style: solid;
+    }
+
+    div {
+        padding: 1px;
+    }
