@@ -1,0 +1,19 @@
+    h1, p {
+        text-align: center;
+    }
+
+    li {
+        font-family: fantasy;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    .listaordenada:hover {       
+        background-color: plum;           
+    }
+
+    .listaordenada:active {
+        font-family: sans-serif;     
+    }
