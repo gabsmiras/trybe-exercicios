@@ -1,0 +1,42 @@
+main{
+    font-family: sans-serif;
+    background-color: black;
+    color: white   
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid rgb(235, 186, 53);
+    background-color: rgb(235, 186, 53);
+}
+
+
+main .img {
+    width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+p {
+    font-size: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p i{
+    text-decoration: 3px underline rgb(235, 186, 53);      
+}
+
+p i:hover, a:hover {
+    background-color: rgb(235, 186, 53);
+    color: black;
+}
+
+a {
+    color: rgb(235, 186, 53);
+}
+
