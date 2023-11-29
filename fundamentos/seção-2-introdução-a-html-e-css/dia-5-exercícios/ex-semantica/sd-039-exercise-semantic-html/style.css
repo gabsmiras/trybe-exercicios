@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1366px;
+    height: 768px;
+}
+
+header h1 {
+    text-align: center;
+    border: 3px solid rgb(70, 1, 12);
+    background-color: pink;
+    width: 100%;
+}
+
+.nav {
+    background-color: pink;
+    width: 1366px;
+    height: auto;
+    border-left: 3px solid rgb(70, 1, 12);
+    border-right: 3px solid rgb(70, 1, 12);
+    
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+a {
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: rgb(247, 94, 119);
+    color: rgb(70, 1, 12);
+}
+
+article {
+    background-color: pink;
+    position: absolute;
+    width: 80%;
+    height: 675px;
+    border: 3px solid rgb(70, 1, 12);
+    border-right: 1px solid rgb(70, 1, 12);
+
+}
+
+article h2, section {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+article ol h3 {
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: ;    
+}
+
+aside {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    height: 675px;
+    background-color: pink;
+    border: 3px solid rgb(70, 1, 12);
+    
+}
+
+aside ul li {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    position: absolute;
+    top: 730px;
+    background-color: pink;
+    border: 3px solid rgb(70, 1, 12);
+    height: 25px;
+    width: 100%;
+}
+
